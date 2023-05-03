@@ -23,5 +23,5 @@ jobs:
       run: |
         git config --global user.name 'sozae32'
         git config --global user.email 'admin@studioosmunda.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
+        git remote set-url origin https://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@github.com/sozae32/so-web.git    
         npm run deploy
